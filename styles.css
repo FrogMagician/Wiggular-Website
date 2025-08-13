@@ -1,0 +1,67 @@
+@font-face {
+  font-family: spookyFont;
+  src: url(fonts/Spooky.ttf);
+}
+
+
+body {
+background-image: url('pictures/background3.png');
+}
+
+.flame {
+  background-image: url('pictures/fire1.gif');
+  font-size: 50px;
+  color: white;
+  padding: 30px;
+  text-align: center;
+  font-family: spookyFont;
+}
+
+.spookyText{
+font-family: spookyFont;
+ font-size: 50px;
+ color: white;
+  padding: 30px;
+  text-align: center;
+}
+.container { 
+  height: 200px;
+  position: relative;
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.stacked-img {
+  display: block;
+  margin: 0 auto 20px;
+  margin-bottom: 20px;
+}
+
+.commision{
+  width: 300px;
+  height: 50%;
+  z-index: 9999;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+.commision2{
+  width: 300px;
+  height: 50%;
+  z-index: 9999;
+  position: fixed;
+  right: 0;
+}
+
+
+.bigText{
+   font-size: 70px;
+   color: white;
+}
